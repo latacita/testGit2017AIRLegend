@@ -6,3 +6,5 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(25)                                Se fusionaría por fast-forward ya que
+                                    no se ha trabajado sobre master.
