@@ -8,3 +8,9 @@
 ====== ============================ ================================
 (25)                                Se fusionaría por fast-forward ya que
                                     no se ha trabajado sobre master.
+(27)   git tag RespuestaPreguntaFusion
+(28)   git push --all               master da un error porque hay cambios en
+                                    el remoto.
+       git pull origin master       se crea el mensaje informando del merge
+       git push --tags
+       git push origin master
