@@ -1,12 +1,18 @@
 %%==================================================================%%
 %%                 Métodos de Desarrollo - Test de Git              %%
 %%==================================================================%%
-%% Alumno (Apellidos, Nombre):                                      %%
+%% Alumno (Apellidos, Nombre): Ibrain Rodríguez, Álvaro             %%
 %%==================================================================%%
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(3)    git branch Historia000
+(4)    git branch Historia001  
+(5)    git checkout Historia000
 (7)    git add bitacora.txt
 (8)    git commit -m "Paso 08"
 (9)    git checkout Historia001
+(11)   git stash save cambios1
+       git checkout Historia000
 (16)   git stash apply 
+(20)   git merge Historia000        Fusión recursiva
